@@ -248,19 +248,19 @@ hr {
 
 @media (min-width: 768px) {
 .container {
-	width: 750px
+	width: 100%
 }
 }
 
 @media (min-width: 1092px) {
 .container {
-	width: 970px
+	width: 100%
 }
 }
 
 @media (min-width: 1300px) {
 .container {
-	width: 1170px
+	width: 100%
 }
 }
 .container-fluid {
