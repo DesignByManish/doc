@@ -1828,7 +1828,7 @@ html.sb-active .nav span:before {
 
 @media (min-width: 768px) {
 #content {
-	padding: 100px 0 0 0
+	padding: 100px 10px 0 10px
 }
 }
 
