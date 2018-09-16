@@ -1806,7 +1806,7 @@ html.sb-active .nav span:before {
 	margin-left: auto;
 	padding-left: 0;
 	padding-right: 0;
-	padding: 90px 5% 0 5%;
+	padding: 120px 5% 0 5%;
 }
 
 @media (min-width: 768px) {
@@ -1829,19 +1829,19 @@ html.sb-active .nav span:before {
 
 @media (min-width: 768px) {
 #content {
-	padding: 100px 20px 0 20px
+	padding: 160px 20px 0 20px
 }
 }
 
 @media (min-width: 1092px) {
 #content {
-	padding: 212px 0 0 0
+	padding: 160px 0 0 0
 }
 }
 
 @media (min-width: 1300px) {
 #content {
-	padding: 236px 0 0 0
+	padding: 180px 0 0 0
 }
 }
 #content:after {
@@ -1879,7 +1879,7 @@ html.sb-active .nav span:before {
 
 @media (min-width: 768px) {
 #content article nav {
-	margin-left: 375px;
+	margin-left: 345px;
 	width: 375px
 }
 }
