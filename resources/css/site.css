@@ -1935,7 +1935,8 @@ html.sb-active .nav span:before {
 	cursor: default
 }
 #content article nav ul li a.inactive:hover {
-	text-decoration: none
+	text-decoration: none;
+	color: #ababab;
 }
 #content article nav ul li a:hover {
 	text-decoration: none;
@@ -1979,7 +1980,7 @@ html.sb-active .nav span:before {
 	padding-left: 0;
 	padding-right: 0;
 	float: right!important;
-	color: #ababab;
+	color: #000;
 	line-height: 28px;
 	margin-top: 40px
 }
@@ -2032,7 +2033,7 @@ html.sb-active .nav span:before {
 }
 }
 #content article .links h2 {
-	color: #ababab;
+	color: #000;
 	font-style: italic
 }
 #content article .links p {
@@ -2141,7 +2142,7 @@ html.sb-active .nav span:before {
 	font-family: 'Avenir LT W01 45 Book';
 	font-size: 14px;
 	font-size: 1.4rem;
-	color: #ababab;
+	color: #000;
 	line-height: 22px;
 	margin-top: 20px
 }
@@ -2154,7 +2155,7 @@ html.sb-active .nav span:before {
 }
 }
 #error>div>div p a {
-	color: #ababab;
+	color: #000;
 	text-decoration: underline
 }
 #error>div>div p a:hover {
@@ -2165,7 +2166,7 @@ footer {
 	margin-left: auto;
 	padding-left: 0;
 	padding-right: 0;
-	padding: 90px 5% 60px 5%
+	padding: 40px 5% 20px 5%
 }
 
 @media (min-width: 768px) {
@@ -2188,7 +2189,7 @@ footer {
 
 @media (min-width: 768px) {
 footer {
-	padding: 90px 20px 60px 20px
+	padding: 40px 0% 20px 0%
 }
 }
 footer div {
@@ -2205,7 +2206,7 @@ footer div>div {
 }
 footer div>div:first-of-type ul li {
 	font-family: 'Avenir LT W01 45 Book';
-	color: #ababab;
+	color: #000;
 	display: inline-block;
 	line-height: 17px;
 	width: 80px;
@@ -2221,7 +2222,7 @@ footer div>div:first-of-type ul li:first-of-type {
 }
 }
 footer div>div:first-of-type ul li a {
-	color: #ababab;
+	color: #000;
 }
 footer div>div:last-of-type ul {
 	float: right!important;
@@ -2234,6 +2235,6 @@ footer div>div:last-of-type ul li {
 	line-height: 17px;
 }
 footer div>div:last-of-type ul li a {
-	color: #ababab;
+	color: #000;
 }
 /* Localized */
