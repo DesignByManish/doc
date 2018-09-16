@@ -1598,11 +1598,12 @@ html.sb-active .nav span:before {
 }
 }
 #homepage:after {
-	background: #f5f5f5;
+	background: rgba(242,242,242,.8);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 	content: "";
 	height: 60px;
 	left: 0;
-	opacity: .9;
 	position: fixed;
 	display: block;
 	top: 0;
@@ -1844,11 +1845,12 @@ html.sb-active .nav span:before {
 }
 }
 #content:after {
-	background: #f5f5f5;
+	background: rgba(242,242,242,.8);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 	content: "";
 	height: 60px;
 	left: 0;
-	opacity: .9;
 	position: fixed;
 	display: block;
 	top: 0;
