@@ -269,9 +269,8 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 3em;
-  padding-bottom: 3em;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 header nav {
