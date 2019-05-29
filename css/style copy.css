@@ -20,7 +20,7 @@ body {
 }
 .logo {
   width:2.5em;
-  margin: 3em 0 1em 0;
+  margin: 1em 0;
 }
 
 .btn {
@@ -161,7 +161,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em;
-  margin: .5em 0;
+  margin: 1em 0 .5em;
 /*
   text-align: center;
   font-weight: 500;
