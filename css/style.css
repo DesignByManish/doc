@@ -130,6 +130,7 @@ img {
   -webkit-transition: opacity 0.3s ease-out;
   -o-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
+  box-shadow: 0 0 10em #fff;
 }
 
 img:hover {
