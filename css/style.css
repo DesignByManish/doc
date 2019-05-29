@@ -330,9 +330,9 @@ footer {
   }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 375px) {
 	
   .container {
-  padding: none;
+  padding: 0;
 }
 }
