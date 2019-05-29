@@ -12,7 +12,8 @@
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	opacity: 0.5;
-	z-index: -99
+	z-index: -99;
+	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .ball-container>.path {
