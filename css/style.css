@@ -102,7 +102,6 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 a {
@@ -314,6 +313,10 @@ footer {
 
 /* Media Queries */
 @media (max-width: 824px) {
+	
+  .container {
+  padding: 0 2rem;
+}
 
   .gallery ul {
     grid-template-columns: 100%;
@@ -328,4 +331,11 @@ footer {
     max-width: 100%;
     float: none;
   }
+}
+
+@media (max-width: 640px) {
+	
+  .container {
+  padding: 0 0;
+}
 }
