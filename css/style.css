@@ -333,6 +333,6 @@ footer {
 @media (max-width: 375px) {
 	
   .container {
-  padding: 0;
+  padding: .5rem;
 }
 }
