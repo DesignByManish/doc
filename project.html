@@ -31,10 +31,108 @@
     <!-- APP ICONS END -->
 	
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/gradient.css" rel="stylesheet">
 	
+<!-- Gradient gackground START -->
+	<script>
+	       var e = document.documentElement;
+	       e.setAttribute('data-useragent', navigator.userAgent);
+	       e.setAttribute('data-platform', navigator.platform);
+
+//	       Use to set any initial config
+//	       window.lazySizesConfig = window.lazySizesConfig || {
+//	       init: false
+//	       };
+
+	       window.NS = 'fotf';
+	       window[NS] = {
+	           NAMESPACE: NS,
+	           contextPath: '',
+	       }
+
+	       debugMode = false;
+	</script>
+	
+	<style id="js-loading-styles">
+	       .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(90);
+	           transition: none;
+	       }
+	       
+	       .state-loading.-init .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(1);
+	       }
+	       
+	       @keyframes zoomBallStates {
+	           0% {
+	               transform: translate(-50%, -50%) scale(1);
+	           }
+	           100% {
+	               transform: translate(-50%, -50%) scale(90);
+	           }
+	       }
+	       
+	       .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(90);
+	           transition: none;
+	       }
+	       
+	       .state-loading.-init .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(1);
+	       }
+	       
+	       @keyframes zoomBallStates {
+	           0% {
+	               transform: translate(-50%, -50%) scale(1);
+	           }
+	           100% {
+	               transform: translate(-50%, -50%) scale(90);
+	           }
+	       }
+	       
+	       .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(90);
+	           transition: none;
+	       }
+	       
+
+	       .state-loading.-init .ball-container > .path > .ball > .rotation > .states {
+	           transform: translate(-50%, -50%) scale(1);
+	       }
+	       
+	       @keyframes zoomBallStates {
+	           0% {
+	               transform: translate(-50%, -50%) scale(1);
+	           }
+	           100% {
+	               transform: translate(-50%, -50%) scale(90);
+	           }
+	       }
+	</style>
+	
+	<script src="js/gradient.head.min.js"></script>
+
+	<!-- Gradient gackground START END -->
+
+
 </head>
-<body>
-		
+
+<body class="-visited">
+	
+	<!-- Gradient gackground START START -->
+	
+	<div class="ball-container" data-swup="0 1 2" id="main-nav">
+		<div class="path" id="mobile-nav">
+			<div class="ball" id="body">
+				<div class="rotation">
+					<div class="states"><img alt="" class="blur" src="img/blur-small.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Gradient gackground START END -->
+			
 	<div class="container">
 		<header>
 			<nav>
@@ -98,5 +196,8 @@
 		</footer>
 		
 	</div>
+	
+	<script src="js/gradient.main.min.js"></script>
+	
 </body>
 </html>
