@@ -14,13 +14,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   background: #fff;
-  color: #666;
+  color: #000;
   line-height: 1.6;
   margin: 1.5em;
 }
 .logo {
   width:2.5em;
-  margin: 3em 0 1em 0;
+  margin: 3em 0 1.5em 0;
 }
 
 .btn {
@@ -74,7 +74,7 @@ body {
 .btn.btn-light:active {
 	border-color: #e2e6ea;
 	background: #e2e6ea;
-	color: #333;
+	color: #000;
 }
 
 .tooltip {
@@ -84,7 +84,7 @@ body {
 
 .tooltip .tooltiptext {
     visibility: visible;
-    color: #333;
+    color: #000;
     text-align: center;
     border-radius: .5em;
 	font-size: .5em;
@@ -118,9 +118,9 @@ a:hover {
 }
 
 a.current {
-  color: #333;
+  color: #000;
   cursor: default;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #000;
 }
 
 img {
@@ -156,7 +156,7 @@ a, img {
 }
 
 h1, h2, h3 {
-  color: #333;
+  color: #000;
 }
 
 h1 {
@@ -218,6 +218,7 @@ ul {
   max-width: 50%;
   float: left;
   margin-bottom: 1em;
+  margin-top: -1.5em
   display: block;
 }
 
