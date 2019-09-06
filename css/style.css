@@ -365,10 +365,10 @@ footer {
 @media (max-width: 768px) {
      .gallery ul li {
       -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(100% - 1em);
-      flex: 0 1 calc(100% - 1em);
-      -ms-flex-preferred-size: calc(100% - 1em);
-      flex-basis: calc(100% - 1em);
+      -ms-flex: 0 1 calc(100% - 0em);
+      flex: 0 1 calc(100% - 0em);
+      -ms-flex-preferred-size: calc(100% - 0em);
+      flex-basis: calc(100% - 0em);
     }
 }
 
