@@ -74,7 +74,7 @@ body {
 .btn:before {
 	display: none;
 }
-.btn:hover,.btn:active,.btn:focus {
+.btn:hover, .btn:active, .btn:focus {
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -85,7 +85,7 @@ body {
 	color: #fff;
 	font-size: 1em;
 }
-.btn.btn-primary:hover,.btn.btn-primary:focus,.btn.btn-primary:active {
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
 	border-color: #178277;
 	background: #178277;
 }
@@ -94,7 +94,7 @@ body {
 	background-color: #f8f9fa;
 	border-color: #f8f9fa;
 }
-.btn.btn-light:hover,.btn.btn-light:focus,.btn.btn-light:active {
+.btn.btn-light:hover, .btn.btn-light:focus, .btn.btn-light:active {
 	border-color: #e2e6ea;
 	background: #e2e6ea;
 	color: #000;
@@ -104,7 +104,7 @@ body {
 	background-color: #212529;
 	border-color: #212529;
 }
-.btn.btn-dark:hover,.btn.btn-dark:focus,.btn.btn-dark:active {
+.btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
 	border-color: #000;
 	background: #000;
 	color: #fff;
@@ -223,10 +223,11 @@ footer {
 	padding: 2em 0;
 }
 /* CSS Grid */
+
 .container {
 	display: grid;
 	grid-template-columns: 3fr 4fr;
-	grid-template-areas:"logo logo logo""navbar navbar navbar""header header header""main main main""gallery gallery gallery""footer footer footer";
+	grid-template-areas: "logo logo logo""navbar navbar navbar""header header header""main main main""gallery gallery gallery""footer footer footer";
 }
 .main {
 	grid-area: main;
@@ -245,6 +246,7 @@ footer {
 	justify-items: center;
 }
 /* Flexbox */
+
 .gallery ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -271,6 +273,7 @@ footer {
 	justify-content: left;
 }
 /* Media Queries */
+
 @media (max-width: 824px) {
 	.gallery ul {
 		grid-template-columns: 100%;
