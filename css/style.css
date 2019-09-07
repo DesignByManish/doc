@@ -145,6 +145,9 @@ a.current {
     border-bottom:3px solid #000;
     padding-bottom:9px;
 }
+.black-link {
+    color: #000 !important;
+}
 img {
 	display: block;
 	vertical-align: middle;
