@@ -182,6 +182,9 @@ footer {
     .header {
     margin-right: 1em;
 }
+    .container {
+    padding: 0 0.5rem;
+}
     .responsive {
 		width: 50%;
         padding: 1em;
