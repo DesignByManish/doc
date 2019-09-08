@@ -104,7 +104,7 @@ section:after {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 2em;
 }
 .info {
 	max-width: 75%;
@@ -186,7 +186,7 @@ footer {
     margin-right: 1em;
 }
     .container {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
     .responsive {
 		width: 50%;
