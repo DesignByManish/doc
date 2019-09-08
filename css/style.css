@@ -175,9 +175,11 @@ a:hover {
 /* Footer - start */
 footer {
     background-color: #fff;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     color: #000;
+    border-top: 1px solid #ddd;
+    margin: 2em 1em 0 1em;
 }
 /* Footer - end */
 
