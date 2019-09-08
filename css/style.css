@@ -59,6 +59,24 @@ img {
 }
 /* Buttons - end */
 
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+.tooltip .tooltiptext {
+	visibility: visible;
+	color: #000;
+	text-align: center;
+	border-radius: .5em;
+	font-size: .5em;
+	margin-top: 2em/* Position the tooltip */
+	position: absolute;
+	z-index: 10;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
 /* Clear floats after the columns */
 section:after {
     content: "";
