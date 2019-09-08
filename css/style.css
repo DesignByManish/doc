@@ -142,18 +142,18 @@ section:after {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3rem;
     margin: 0;
 }
 h2 {
-	font-size: 1.75em;
+	font-size: 1.75rem;
     margin-bottom: -0.25em;
 }
 h3 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 p {
-	font-size: 1.25em;
+	font-size: 1.25rem;
     line-height: 1.4em;
 }
 a {
