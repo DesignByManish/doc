@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima Nova:400,500,600,700,800');
 
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
 
 body {
 	font-family: 'Proxima Nova', sans-serif;
