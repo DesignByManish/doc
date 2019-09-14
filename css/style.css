@@ -154,7 +154,7 @@ section:after {
     margin: 0 auto;
 }
 .gallery:hover {
-
+    
 }
 .gallery img {
 	width: 100%;
@@ -203,7 +203,6 @@ footer {
     background-color: #fff;
     padding: 0;
     text-align: left;
-    color: #000;
     border-top: 1px solid #ddd;
     margin: 2em 1em 0 1em;
     font-size: 0.75em;
