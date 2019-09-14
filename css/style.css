@@ -89,7 +89,7 @@ section:after {
 	position: absolute;
 	width: 1.6em;
 	height: 1.6em;
-    top: -0.4em;
+    top: -0.5em;
 }
 .header {
     margin-right: 1.5em;
@@ -100,11 +100,11 @@ section:after {
 	top: 0;
 	width: 100%;
 	border-bottom: 1px solid #ddd;
-    height: 3em;
+    height: 3.05em;
 }
 .navbar a {
 	float: right;
-    padding: 0.85em 0;
+    padding: 1em 0;
 	margin-left: 1em;
     color: #000;
 }
@@ -123,6 +123,12 @@ section:after {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2em;
+}
+.grid {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .info {
 	max-width: 75%;
@@ -180,6 +186,7 @@ p {
 a {
     color: #1FAD9F;
     text-decoration: none;
+    line-height: 1em;
     -webkit-transition: color 0.3s ease-out;
 	-o-transition: color 0.3s ease-out;
 	transition: color 0.3s ease-out;
@@ -237,4 +244,10 @@ footer {
 	.responsive {
 		width: 100%;
 	}
+    h1 {
+        font-size: 2.25em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
 }
