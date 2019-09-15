@@ -184,6 +184,10 @@ p {
 	font-size: 1.15em;
     line-height: 1.6em;
 }
+li {
+    font-size: 1.15em;
+    line-height: 1.6em;
+}
 a {
     color: #1FAD9F;
     text-decoration: none;
