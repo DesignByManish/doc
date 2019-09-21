@@ -15,6 +15,15 @@ img {
     width: 100%;
 }
 
+.gly-rotate-45 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 /* Buttons - start */
 .btn {
 	display: inline-block;
@@ -136,7 +145,7 @@ section:after {
     margin: 2.5em 0;
 }
 .item {
-    margin:1em;
+    margin:2em 1em 1em;
 }
 /* Content container - end */
 
