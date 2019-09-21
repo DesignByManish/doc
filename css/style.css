@@ -98,7 +98,10 @@ section:after {
 	position: absolute;
 	width: 1.6em;
 	height: 1.6em;
-    top: -0.5em;
+    top: 0.5em;
+    margin-left: 1em;
+    border: none !important;
+    padding: 0 !important;
 }
 .header {
     margin-right: 1.5em;
@@ -109,13 +112,22 @@ section:after {
 	top: 0;
 	width: 100%;
 	border-bottom: 1px solid #ddd;
-    height: 3.05em;
+    height: 3em;
+}
+.disable {
+    cursor: default;
+    color: #999 !important;
+}
+.border-right {
+    border-right: 1px solid #ddd;
+    margin-right: -0.5em;
 }
 .navbar a {
-	float: right;
-    padding: 1em 0;
-	margin-left: 1em;
+    float: right;
     color: #000;
+    border-left: 1px solid #ddd;
+    text-align: center;
+    padding: 1em 1.25em;
 }
 .navbar a:hover {
 	color: #000;
@@ -248,6 +260,9 @@ footer {
 		width: 50%;
         padding: 1em;
 	}
+    .border-right {
+    margin-right: 0em;
+    }
 }
 @media only screen and (max-width: 768px) {
     .info {
