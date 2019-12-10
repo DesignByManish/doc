@@ -15,8 +15,7 @@ img {
 }
 .icon {
     width: 84px;
-    fill: grey !important;
-    color: red !important;
+    fill: red;
 }
 .gly-rotate-45 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
