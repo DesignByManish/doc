@@ -13,6 +13,11 @@ body {
 img {
     width: 100%;
 }
+.icon {
+    width: 84px;
+    fill: grey !important;
+    color: red !important;
+}
 .gly-rotate-45 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
     -webkit-transform: rotate(45deg);
