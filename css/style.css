@@ -14,8 +14,7 @@ img {
     width: 100%;
 }
 .icon {
-    width: 84px;
-    fill: red;
+    width: 5em;
 }
 .gly-rotate-45 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
@@ -167,7 +166,7 @@ section:after {
 	box-sizing: border-box;
 }
 .responsive {
-	padding: 1em 0.3em 1em 1em;
+	padding: 2em 0.3em 2em 1em;
 	float: left;
 	width: 33%;
 }
@@ -190,16 +189,24 @@ section:after {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
     margin: 0;
 }
 h2 {
-	font-size: 1.75em;
+	font-size: 2.2em;
     margin-bottom: -0.05em;
     line-height: 1.35em
 }
 h3 {
-	font-size: 1.5em;
+	font-size: 1.75em;
+    margin-bottom: -0.5em;
+    line-height: 1.35em
+}
+h4 {
+	font-size: 1.25em;
+    margin-bottom: -0.5em;
+    margin-top: 1em;
+    line-height: 1.35em
 }
 p {
 	font-size: 1.15em;
