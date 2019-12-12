@@ -14,7 +14,7 @@ img {
     width: 100%;
 }
 .icon {
-    width: 5em;
+    width: 4.5em;
 }
 .gly-rotate-45 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
@@ -199,13 +199,13 @@ h2 {
 }
 h3 {
 	font-size: 1.75em;
-    margin-bottom: -0.5em;
+    margin-bottom: .75em;
     line-height: 1.35em
 }
 h4 {
 	font-size: 1.25em;
     margin-bottom: -0.5em;
-    margin-top: 1em;
+    margin-top: -.5em;
     line-height: 1.35em
 }
 p {
