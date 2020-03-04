@@ -161,7 +161,7 @@ section:after {
 	outline: none;
 }
 .current {
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
 }
 /* Header nav - end */
 
@@ -336,4 +336,51 @@ footer {
     p {
         font-size: 1em;
     }
+}
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #000;
+		color: #fff;
+	}
+    h1, h2, h3, h4, h5, {
+        color: #fff;
+    }
+    p {
+        color: #999;
+    }
+    .current {
+        border-bottom: 2px solid #fff;
+    }
+    .navbar {
+        background-color: #000;
+        border-bottom: 1px solid #333;
+    }
+    .navbar a {
+        color: #fff;
+        border-left: 1px solid #333;
+    }
+    .navbar a:hover {
+	color: #fff;
+    }
+    .border-right {
+        border-right: 1px solid #333;
+    }
+    footer {
+        border-top: 1px solid #333;
+    }
+    .btn-dark {
+	color: #fff;
+	background-color: #333;
+	border-color: #333;
+}
+    .btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
+	border-color: #212529;
+	background: #212529;
+}
 }
