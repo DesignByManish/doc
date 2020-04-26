@@ -3,6 +3,32 @@
     margin-bottom: -0.5em;
 }
 
+.shadow {
+    box-shadow: 0 0 24px #eee;
+}
+
+/* Quote card - start */
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0 1em 0;
+}
+
+.quote {
+    flex: 1;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: #f9f9f9;
+    padding: 0 2em;
+}
+
+.quote-orange {
+    border-left: 4px solid orange;
+}
+/* Quote card - end */
+
 /* Tag - start */
 .w3-tag {
     background-color: #000;
@@ -118,6 +144,8 @@ section:after {
     content: "";
     display: table;
     clear: both;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 /* Header nav - start */
@@ -193,9 +221,18 @@ section:after {
 	box-sizing: border-box;
 }
 .responsive {
-	padding: 2em 0.45em 1em 1em;
+    padding: 1em 0.5em 0.5em 1em;
 	float: left;
 	width: 33%;
+}
+.responsive-two {
+    padding: 1em 0.5em 0.5em 1em;
+	float: left;
+	width: 50%;
+}
+.responsive-four {
+    width: 25%;
+    padding: 1em;
 }
 .gallery {
     margin: 0 auto;
@@ -217,12 +254,12 @@ section:after {
 
 h1 {
 	font-size: 2.4em;
-    margin: 0;
+    margin: 1em 0;
     font-weight: 600;
 }
 h2 {
 	font-size: 1.8em;
-    margin-bottom: -0.05em;
+/*    margin-bottom: -0.05em;*/
     line-height: 1.35em;
     font-weight: 600;
 }
@@ -238,14 +275,34 @@ h4 {
     line-height: 1.4em;
     font-weight: 600;
 }
+h5 {
+    font-size: 4em;
+    line-height: 0;
+    margin-bottom: 0.85em;
+    margin-top: 1em;
+}
+
 p {
 	font-size: 1.1em;
     line-height: 1.5em;
     color: #666;
+    margin-top: 0
 }
+
+figure {
+    float: left;
+    width: 50%;
+	font-size: 1.1em;
+    line-height: 1.5em;
+    color: #999;
+    margin: 1em 0 -.75em 0;
+    font-style: italic;
+}
+
 li {
     font-size: 1.15em;
     line-height: 1.6em;
+    color: #666;
 }
 a {
     color: #1FAD9F;
@@ -264,7 +321,7 @@ a:hover {
 /* Footer - start */
 footer {
     background-color: #fff;
-    padding: 0;
+    padding: 1em 0 0 0;
     text-align: left;
     border-top: 1px solid #ddd;
     margin: 2em 1em 0 1em;
@@ -275,7 +332,7 @@ footer {
     width: 50%;
     text-align: right;
     padding-left: 1em;
-    margin-right: -0.75em;
+    margin-right: -0.5em;
 }
 .column-right a {
     padding: 0.5em;
@@ -284,6 +341,7 @@ footer {
 .column-left {
     float: left;
     width: 50%;
+    margin-top: 0.25em;
 }
 /* Footer - end */
 
@@ -305,6 +363,13 @@ footer {
 		width: 50%;
         padding: 1em;
 	}
+    .responsive-two {
+        width: 100%
+    }
+    .responsive-four {
+        width: 50%;
+        padding: 1em;
+    }
     .border-right {
     margin-right: 0em;
     }
@@ -343,6 +408,7 @@ footer {
 		color: #000;
 	}
 }
+/*
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #000;
@@ -352,35 +418,35 @@ footer {
         color: #fff;
     }
     p {
-        color: #999;
+        color: #bbb;
     }
     .current {
         border-bottom: 2px solid #fff;
     }
     .navbar {
         background-color: #000;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #444;
     }
     .navbar a {
         color: #fff;
-        border-left: 1px solid #333;
+        border-left: 1px solid #444;
     }
     .navbar a:hover {
 	color: #fff;
     }
     .border-right {
-        border-right: 1px solid #333;
+        border-right: 1px solid #444;
     }
     footer {
-        border-top: 1px solid #333;
+        border-top: 1px solid #444;
     }
     .btn-dark {
 	color: #fff;
 	background-color: #333;
 	border-color: #333;
-}
+    }
     .btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
-	border-color: #212529;
-	background: #212529;
-}
-}
+	border-color: #222;
+	background: #222;
+    }
+}*/
