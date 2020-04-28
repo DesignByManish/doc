@@ -228,7 +228,7 @@ section:after {
 .responsive-two {
     padding: 1em 0.5em 0.5em 1em;
 	float: left;
-	width: 50%;
+	width: 49.6%;
 }
 .responsive-four {
     width: 25%;
@@ -364,7 +364,8 @@ footer {
         padding: 1em;
 	}
     .responsive-two {
-        width: 100%
+        width: 100%;
+        padding: 0.75em 1em;    
     }
     .responsive-four {
         width: 50%;
@@ -380,6 +381,9 @@ footer {
     }
     .container {
         padding: 0 0.5rem;
+    }
+    .responsive-two {
+        width: 50%;
     }
 }
 @media only screen and (max-width: 375px) {
