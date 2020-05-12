@@ -2,7 +2,14 @@
 .mb-1 {
     margin-bottom: -0.5em;
 }
-
+/*
+.bg {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 2em;
+    margin-bottom: 3em;
+}
+*/
 .shadow {
     box-shadow: 0 0 24px #eee;
 }
@@ -10,7 +17,7 @@
 .quote-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 1em 0 1em 0;
+    margin: 1em 0 2em 0;
 }
 
 .quote {
@@ -65,6 +72,8 @@ body {
 }
 img {
     width: 100%;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
 }
 .icon {
     width: 3.8em;
@@ -279,7 +288,7 @@ h3 {
 }
 h4 {
 	font-size: 1.1em;
-    margin-top: -.5em;
+    margin: 1.5em 0 0.5em 0;
     line-height: 1.4em;
     font-weight: 700;
 }
