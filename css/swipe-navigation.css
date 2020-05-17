@@ -22,11 +22,11 @@
     -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
 
-   -webkit-transition: opacity 0.3s linear, -webkit-transform 0.02s linear;
-   -moz-transition: opacity 0.3s linear, -mox-transform 0.02s linear;
-    -ms-transition: opacity 0.3s linear, -ms-transform 0.02s linear;
-     -o-transition: opacity 0.3s linear, -o-transform 0.02s linear;
-        transition: opacity 0.3s linear, transform 0.02s linear;
+   -webkit-transition: opacity 0.3s linear, -webkit-transform 0.05s linear;
+   -moz-transition: opacity 0.3s linear, -mox-transform 0.05s linear;
+    -ms-transition: opacity 0.3s linear, -ms-transform 0.05s linear;
+     -o-transition: opacity 0.3s linear, -o-transform 0.05s linear;
+        transition: opacity 0.3s linear, transform 0.05s linear;
 }
 
 
