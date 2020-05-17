@@ -10,7 +10,7 @@
     color: black;
     font-size: 2em;
     text-align: center;
-    line-height: 2.24em;
+    line-height: 2.20em;
     background-color: #fff;
     opacity: 0;
     border-radius: 50%;
@@ -21,11 +21,11 @@
     -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
 
-   -webkit-transition: opacity 0.3s linear, -webkit-transform 0.2s linear;
-   -moz-transition: opacity 0.3s linear, -mox-transform 0.2s linear;
-    -ms-transition: opacity 0.3s linear, -ms-transform 0.2s linear;
-     -o-transition: opacity 0.3s linear, -o-transform 0.2s linear;
-        transition: opacity 0.3s linear, transform 0.2s linear;
+   -webkit-transition: opacity 0.3s linear, -webkit-transform 0.02s linear;
+   -moz-transition: opacity 0.3s linear, -mox-transform 0.02s linear;
+    -ms-transition: opacity 0.3s linear, -ms-transform 0.02s linear;
+     -o-transition: opacity 0.3s linear, -o-transform 0.02s linear;
+        transition: opacity 0.3s linear, transform 0.02s linear;
 }
 
 
