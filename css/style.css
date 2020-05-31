@@ -310,20 +310,18 @@ p {
 
 figure {
     float: left;
-	font-size: 1.1em;
+	font-size: 1em;
     line-height: 1.5em;
     color: #999;
     margin: 0 0 -1em 0;
-    font-style: italic;
 }
 
 figcaption {
     float: left;
-	font-size: 1.1em;
+	font-size: 1em;
     line-height: 1.5em;
     color: #999;
-    margin: 0.25em 0 1.5em 0;
-    font-style: italic;
+    margin: 0.5em 0 0 0;
 }
 
 li {
@@ -414,6 +412,10 @@ footer {
     .responsive {
 		width: 100%;
 	}     
+    .item {
+/*        margin: 0.25em 1em;*/
+        margin: 0.25em -0.5em;
+    }
 }
         
 @media only screen and (max-width: 375px) {
@@ -437,7 +439,12 @@ footer {
         font-size: 1em;
     }
     .item {
-    margin: 0.25em 1em;
+/*        margin: 0.25em 1em;*/
+        margin: 0.25em -0.5em;
+    }
+    figcaption {
+	font-size: 0.75em;
+    line-height: 1.25em;
     }
 }
 
