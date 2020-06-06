@@ -10,6 +10,7 @@ table {
   border-spacing: 0;
   width: 100%;
   display: table;
+  margin: -1em 0em 2em 0em;
 }
 
 thead {
@@ -262,7 +263,7 @@ section:after {
     
 }
 .responsive-two {
-    padding: 0.75em 1em 0.75em 1em;
+    padding: 0.5em 1em 0.75em 1em;
     float: left;
     width: 50%;
 }
@@ -299,6 +300,7 @@ h2 {
     margin-bottom: 0.5em;
     line-height: 1.35em;
     font-weight: 700;
+    margin-top: 2em;
 }
 h3 {
 	font-size: 1.4em;
