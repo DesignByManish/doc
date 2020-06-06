@@ -33,9 +33,6 @@ th {
 }
 /* Table - end */
 
-.shadow {
-    box-shadow: 0 0 24px #eee;
-}
 /* Quote card - start */
 .quote-container {
     display: flex;
@@ -333,7 +330,7 @@ figure {
     float: left;
 	font-size: 1em;
     line-height: 1.5em;
-    color: #999;
+    color: #1FAD9F;
     margin: 0 0 -1em 0;
 }
 
@@ -437,6 +434,10 @@ footer {
 	} 
     .item {
         margin: 1.5em -0.5em;
+    }
+    .indent {
+        margin-left: 2em;
+        margin-right: 2em;
     }
     .container {
         padding: 0 0.5em;
