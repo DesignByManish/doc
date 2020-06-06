@@ -174,8 +174,7 @@ section:after {
     content: "";
     display: table;
     clear: both;
-    margin-top: 1em;
-/*    margin-bottom: 1em;*/
+    margin-top: -0.5em;
 }
 
 /* Header nav - start */
@@ -340,7 +339,7 @@ figcaption {
 	font-size: 1em;
     line-height: 1.5em;
     color: #999;
-    margin: 0.25em 0 0 0;
+    margin: 0.5em 0 0 0;
 }
 
 li {
@@ -413,6 +412,9 @@ footer {
     }
 }
 @media only screen and (max-width: 768px) {
+    .responsive-two {
+		width: 50%;
+	} 
     .info {
 	max-width: 100%;
     }
@@ -420,30 +422,24 @@ footer {
         padding: 0 1em;
     }
     .item {
-    margin: 1.25em 1em;
+    margin: 1.25em 1em 1.5em 1em;
     }
 }
 @media only screen and (max-width: 414px) {
     .responsive {
 		width: 100%;
-	}     
+        padding: 0.75em 1em 0.5em 1em;
+	}  
+    .responsive-two {
+		width: 100%;
+	} 
     .item {
-        margin: 1.25em -0.5em;
+        margin: 1.5em -0.5em;
     }
     .container {
         padding: 0 0.5em;
     }
-    .indent {
-        padding-left: 1.5em;
-    }
-}
-        
-@media only screen and (max-width: 375px) {
-	.responsive {
-		width: 100%;
-        padding: 0.75em 1em 0.5em 1em;
-	}
-    h1 {
+     h1 {
         font-size: 1.8em;
     }
     h2 {
@@ -458,16 +454,14 @@ footer {
     p {
         font-size: 1em;
     }
-/*
-    .item {
-        margin: 0.25em 1em;
-        margin: 0.25em -0.5em;
-    }
-*/
     figcaption {
 	font-size: 0.75em;
     line-height: 1.25em;
     }
+}
+        
+@media only screen and (max-width: 375px) {
+   
 }
 
 @media print {
