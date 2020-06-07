@@ -37,7 +37,7 @@ th {
 .quote-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 1em 0 2em 0;
+    margin: 4em 0 2em 0;
 }
 
 .quote {
