@@ -288,13 +288,13 @@ section:after {
 }
 
 h1 {
-	font-size: 2.4em;
+	font-size: 2.8em;
     margin: 1em 0 0.5em 0;
     font-weight: 700;
     padding-top: 0.5em;
 }
 h2 {
-	font-size: 1.8em;
+	font-size: 2em;
     margin-bottom: 0.5em;
     line-height: 1.35em;
     font-weight: 700;
@@ -444,10 +444,10 @@ footer {
         padding: 0 0.5em;
     }
      h1 {
-        font-size: 1.8em;
+        font-size: 2.4em;
     }
     h2 {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     h3 {
 	   font-size: 1.2em;
