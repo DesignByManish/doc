@@ -178,12 +178,11 @@ section:after {
 /* Header nav - start */
 .logo {
 	position: absolute;
-	width: 1.6em;
-	height: 1.6em;
-    top: 0.5em;
-    margin-left: 1em;
+    width: 2.5em;
+    margin-left: 0.6em;
     border: none !important;
-    padding: 0 !important;
+    padding: 0.4em !important;
+    height: 3em !important;
 }
 .header {
     margin-right: 1.5em;
