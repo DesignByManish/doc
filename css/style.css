@@ -474,6 +474,7 @@ footer {
     }
 }
 
+
 /*
 @media (prefers-color-scheme: dark) {
 	body {
@@ -495,13 +496,9 @@ footer {
     }
     .navbar a {
         color: #fff;
-        border-left: 1px solid #444;
     }
     .navbar a:hover {
 	color: #fff;
-    }
-    .border-right {
-        border-right: 1px solid #444;
     }
     footer {
         border-top: 1px solid #444;
@@ -515,4 +512,17 @@ footer {
 	border-color: #222;
 	background: #222;
     }
-}*/
+    .quote {
+    background: #333;
+    }
+    .column-right a {
+    color: #fff;
+    }
+    td, th {
+    border-bottom: 1px solid #444;
+    }
+    li {
+    color: #bbb;
+    }
+}
+*/
